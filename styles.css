@@ -1,0 +1,261 @@
+
+
+.first-block {
+	width: 1440px;
+	height: 592px;
+	background-color: #FFCD9E;
+	position: absolute;
+}
+
+.second-block {
+	width: 1440px;
+	height: 298px;
+	background-color: #282828;
+	position: absolute;
+	top: 592px;
+}
+.content {
+	width: 562px;
+	height: 108px;
+	position: absolute;
+	top: 83px;
+	left: 136px;
+	font-family: 'Inter', sans-serif;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 54px;
+	text-align: left;
+	color: #282828; 
+	
+}
+
+.additional-content {
+	width: 495px;
+	height: 81px;
+	position: absolute;
+	top: 219px;
+	left: 136px;
+	font-family: 'Inter', sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 32px;
+	text-align: left;
+	color: #484848;
+}
+
+.show-content {
+	width: 227px;
+	height: 81px;
+	position: absolute;
+	top: 315px;
+	left: 136px;
+	font-family: 'Inter', sans-serif;
+	font-size: 20px;
+	font-weight: 800;
+	line-height: 32px;
+	text-align: left;
+	color: #282828;
+	white-space: nowrap;
+}
+
+.email-input {
+	width: 344px;
+	height: 64px;
+	position: absolute;
+	top: 411px;
+	left: 136px;
+	background-color: #FFFFFF;
+	border-radius: 8px;
+	border: 4px solid #000000;
+	font-family: 'Inter', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 32px;
+	text-align: left;
+	color: #888888;
+	padding: 0 10px;
+	box-sizing: border-box;
+}
+
+.email-input::placeholder {
+	font-family: 'Inter', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 32px;
+	text-align: left;
+	color: #888888;
+}
+
+.register-button {
+	width: 216px;
+	height: 64px;
+	position: absolute;
+	top: 411px;
+	left: 496px;
+	background-color: #000000;
+	border-radius: 8px;
+	font-family: 'Inter', sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 24.2px;
+	text-align: center;
+	color: #FFFFFF;
+	border: none;
+	cursor: pointer;
+}
+
+.design-image {
+	width: 575px;
+	height: 575px;
+	position: absolute;
+	top: 20px;
+	left: 818px;
+	padding: 66.4px 89.61px 66.15px 91.87px;
+	box-sizing: border-box;
+}
+
+.footer-content {
+	width: 344px;
+	height: 61px;
+	position: absolute;
+	top: 479px;
+	left: 136px;
+	font-family: 'Inter', sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 25.6px;
+	text-align: center;
+	color: #FFFFFF;
+
+}
+
+.prompt-generator {
+	width: 216px;
+	height: 36px;
+	position: absolute;
+	margin-top: 62px;
+	margin-left: 191px;
+	font-family: 'Inter', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 32px;
+	text-align: left;
+	color: #FFFFFF;
+	
+}
+
+.dweep-daily {
+	width: 216px;
+	height: 36px;
+	position: absolute;
+	margin-top: 98px;
+	margin-left: 191px;
+	font-family: 'Inter', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 32px;
+	text-align: left;
+	color: #FFFFFF;
+	
+}
+
+.all-contributors{
+	width: 216px;
+	height: 36px;
+	position: absolute;
+	margin-top: 134px;
+	margin-left: 191px;
+	font-family: 'Inter', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 32px;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+.dweep{
+	width: 216px;
+	height: 36px;
+	position: absolute;
+	margin-top: 170px;
+	margin-left: 191px;
+	font-family: 'Inter', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 32px;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+.contribute{
+	width: 216px;
+	height: 36px;
+	position: absolute;
+	margin-top: 206px;
+	margin-left: 191px;
+	font-family: 'Inter', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 32px;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+.dweep-io{
+	width: 216px;
+	height: 36px;
+	position: absolute;
+	margin-top: 62px;
+	margin-left: 1099px;
+	font-family: 'Inter', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 32px;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+.made-with{
+	width: 216px;
+	height: 36px;
+	position: absolute;
+	margin-top: 98px;
+	margin-left: 1099px;
+	font-family: 'Inter', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 32px;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+.icon-image{
+	width: 29.41px;
+	height: 27.42px;
+	position: absolute;
+	margin-top: 134px;
+	margin-left: 1099px;
+	box-sizing: border-box;
+}
+
+.icon-image2{
+	width: 29.41px;
+	height: 27.42px;
+	position: absolute;
+	margin-top: 134px;
+	margin-left: 1135px;
+	box-sizing: border-box;
+}
+
+.email{
+	width: 216px;
+	height: 36px;
+	margin-top: 206px;
+	margin-left: 1099px;
+	font-family: 'Inter', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 32px;
+	text-align: left;
+	color: #FFFFFF;
+}
