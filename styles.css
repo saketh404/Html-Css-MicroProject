@@ -1,261 +1,384 @@
+html {
+    font-size: 16px;
+}
 
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.color-block {
+    width: 100%;
+    padding: 1.25rem;
+    box-sizing: border-box;
+}
 
 .first-block {
-	width: 1440px;
-	height: 592px;
-	background-color: #FFCD9E;
-	position: absolute;
+    width: 100%;
+    height: 37rem;
+    background-color: #FFCD9E;
+    position: relative; 
 }
 
 .second-block {
-	width: 1440px;
-	height: 298px;
-	background-color: #282828;
-	position: absolute;
-	top: 592px;
+    width: 100%;
+    height: 18.625rem;
+    background-color: #282828;
+    position: relative; 
+    margin-top: 0; 
 }
+
 .content {
-	width: 562px;
-	height: 108px;
-	position: absolute;
-	top: 83px;
-	left: 136px;
-	font-family: 'Inter', sans-serif;
-	font-size: 36px;
-	font-weight: 700;
-	line-height: 54px;
-	text-align: left;
-	color: #282828; 
-	
+    width: 35.125rem;
+    height: 6.75rem;
+    position: absolute;
+    top: 5.1875rem;
+    left: 8.5rem;
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 3.375rem;
+    text-align: left;
+    color: #282828; 
 }
 
 .additional-content {
-	width: 495px;
-	height: 81px;
-	position: absolute;
-	top: 219px;
-	left: 136px;
-	font-family: 'Inter', sans-serif;
-	font-size: 20px;
-	font-weight: 500;
-	line-height: 32px;
-	text-align: left;
-	color: #484848;
+    width: 30.9375rem;
+    height: 5.0625rem;
+    position: absolute;
+    top: 13.6875rem;
+    left: 8.5rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 2rem;
+    text-align: left;
+    color: #484848;
 }
 
 .show-content {
-	width: 227px;
-	height: 81px;
-	position: absolute;
-	top: 315px;
-	left: 136px;
-	font-family: 'Inter', sans-serif;
-	font-size: 20px;
-	font-weight: 800;
-	line-height: 32px;
-	text-align: left;
-	color: #282828;
-	white-space: nowrap;
+    width: 14.1875rem;
+    height: 5.0625rem;
+    position: absolute;
+    top: 19.6875rem;
+    left: 8.5rem;
+    font-size: 1.25rem;
+    font-weight: 800;
+    line-height: 2rem;
+    text-align: left;
+    color: #282828;
+    white-space: nowrap;
 }
 
 .email-input {
-	width: 344px;
-	height: 64px;
-	position: absolute;
-	top: 411px;
-	left: 136px;
-	background-color: #FFFFFF;
-	border-radius: 8px;
-	border: 4px solid #000000;
-	font-family: 'Inter', sans-serif;
-	font-size: 20px;
-	font-weight: 600;
-	line-height: 32px;
-	text-align: left;
-	color: #888888;
-	padding: 0 10px;
-	box-sizing: border-box;
+    width: 21.5rem;
+    height: 4rem;
+    position: absolute;
+    top: 25.6875rem;
+    left: 8.5rem;
+    background-color: #FFFFFF;
+    border-radius: 0.5rem;
+    border: 0.25rem solid #000000;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 2rem;
+    text-align: left;
+    color: #888888;
+    padding: 0 0.625rem;
+    box-sizing: border-box;
 }
 
 .email-input::placeholder {
-	font-family: 'Inter', sans-serif;
-	font-size: 20px;
-	font-weight: 600;
-	line-height: 32px;
-	text-align: left;
-	color: #888888;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 2rem;
+    text-align: left;
+    color: #888888;
 }
 
 .register-button {
-	width: 216px;
-	height: 64px;
-	position: absolute;
-	top: 411px;
-	left: 496px;
-	background-color: #000000;
-	border-radius: 8px;
-	font-family: 'Inter', sans-serif;
-	font-size: 20px;
-	font-weight: 700;
-	line-height: 24.2px;
-	text-align: center;
-	color: #FFFFFF;
-	border: none;
-	cursor: pointer;
+    width: 13.5rem;
+    height: 4rem;
+    position: absolute;
+    top: 25.6875rem;
+    left: 31rem;
+    background-color: #000000;
+    border-radius: 0.5rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.5125rem;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
 }
 
 .design-image {
-	width: 575px;
-	height: 575px;
-	position: absolute;
-	top: 20px;
-	left: 818px;
-	padding: 66.4px 89.61px 66.15px 91.87px;
-	box-sizing: border-box;
+    width: 35.9375rem;
+    height: 35.9375rem;
+    position: absolute;
+    top: 1.25rem;
+    left: 51.125rem;
+    padding: 4.15rem 5.6rem 4.134375rem 5.7421875rem;
+    box-sizing: border-box;
 }
 
 .footer-content {
-	width: 344px;
-	height: 61px;
-	position: absolute;
-	top: 479px;
-	left: 136px;
-	font-family: 'Inter', sans-serif;
-	font-size: 16px;
-	font-weight: 500;
-	line-height: 25.6px;
-	text-align: center;
-	color: #FFFFFF;
-
+    width: 21.5rem;
+    height: 3.8125rem;
+    position: absolute;
+    top: 29.9375rem;
+    left: 8.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    text-align: center;
+    color: #FFFFFF;
 }
 
 .prompt-generator {
-	width: 216px;
-	height: 36px;
-	position: absolute;
-	margin-top: 62px;
-	margin-left: 191px;
-	font-family: 'Inter', sans-serif;
-	font-size: 20px;
-	font-weight: 400;
-	line-height: 32px;
-	text-align: left;
-	color: #FFFFFF;
-	
+    width: 13.5rem;
+    height: 2.25rem;
+    position: absolute;
+    top: 3.875rem;
+    left: 11.9375rem;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 2rem;
+    text-align: left;
+    color: #FFFFFF;
 }
 
 .dweep-daily {
-	width: 216px;
-	height: 36px;
-	position: absolute;
-	margin-top: 98px;
-	margin-left: 191px;
-	font-family: 'Inter', sans-serif;
-	font-size: 20px;
-	font-weight: 400;
-	line-height: 32px;
-	text-align: left;
-	color: #FFFFFF;
+    width: 13.5rem;
+    height: 2.25rem;
+    position: absolute;
+    top: 6.125rem;
+    left: 11.9375rem;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 2rem;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.all-contributors {
+    width: 13.5rem;
+    height: 2.25rem;
+    position: absolute;
+    top: 8.375rem;
+    left: 11.9375rem;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 2rem;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.dweep {
+    width: 13.5rem;
+    height: 2.25rem;
+    position: absolute;
+    top: 10.625rem;
+    left: 11.9375rem;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 2rem;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.contribute {
+    width: 13.5rem;
+    height: 2.25rem;
+    position: absolute;
+    top: 12.875rem;
+    left: 11.9375rem;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 2rem;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.dweep-io {
+    width: 13.5rem;
+    height: 2.25rem;
+    position: absolute;
+    top: 3.875rem;
+    left: 68.6875rem;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 2rem;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.made-with {
+    width: 13.5rem;
+    height: 2.25rem;
+    position: absolute;
+    top: 6.125rem;
+    left: 68.6875rem;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 2rem;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.icon-image, .icon-image2 {
+    width: 1.8375rem;
+    height: 1.7125rem;
+    position: absolute;
+    top: 8.375rem;
+    left: 68.6875rem;
+    box-sizing: border-box;
+    max-width: 100%; 
+    max-height: 100%; 
+}
+
+.icon-image2 {
+    left: 70.9375rem; 
+}
+
+.email {
+    width: 13.5rem;
+    height: 2.25rem;
+    position: absolute;
+    top: 12.875rem;
+    left: 68.6875rem;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 2rem;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+/* Mobile Devices (Portrait) */
+@media (max-width: 600px) {
+    .first-block, .second-block {
+        position: relative;
+        height: auto;
+        padding: 1rem;
+    }
+
+    .content, .additional-content, .show-content, .email-input, .register-button, .design-image, .footer-content,
+    .prompt-generator, .dweep-daily, .all-contributors, .dweep, .contribute, .dweep-io, .made-with, .icon-image,
+    .icon-image2, .email {
+        position: static;
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .email-input, .register-button {
+        width: calc(100% - 1rem);
+        margin: 0.5rem auto;
+    }
+
+    .design-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .footer-content {
+        padding-top: 1rem;
+    }
+
+    .prompt-generator, .dweep-daily, .all-contributors, .dweep, .contribute, .dweep-io, .made-with {
+        padding-top: 1rem;
+    }
+
+    .icon-image, .icon-image2 {
+        display: inline-block;
+        margin-top: 1rem;
+        width: auto; 
+        height: auto; 
+        max-width: 1.8375rem; 
+        max-height: 1.7125rem; 
+    }
+
+    .email {
+        padding-top: 1rem;
+    }
+}
+
+/* Tablets (Portrait and Landscape) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .first-block, .second-block {
+        position: relative;
+        height: auto;
+        padding: 2rem;
+    }
+
+    .content, .additional-content, .show-content, .email-input, .register-button, .design-image, .footer-content,
+    .prompt-generator, .dweep-daily, .all-contributors, .dweep, .contribute, .dweep-io, .made-with, .icon-image,
+    .icon-image2, .email {
+        position: static;
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .email-input, .register-button {
+        width: calc(100% - 2rem);
+        margin: 1rem auto;
+    }
+
+    .design-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .footer-content {
+        padding-top: 1.5rem;
+    }
+
+    .prompt-generator, .dweep-daily, .all-contributors, .dweep, .contribute, .dweep-io, .made-with {
+        padding-top: 1.5rem;
+    }
+
+    .icon-image, .icon-image2 {
+        display: inline-block;
+        margin-top: 1.5rem;
+        width: auto; 
+        height: auto; 
+        max-width: 1.8375rem; 
+        max-height: 1.7125rem; 
+    }
+
+    .email {
+        padding-top: 1.5rem;
+    }
+}
+
+/* Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .first-block, .second-block {
+        padding: 2.5rem;
+    }
+
+    .content, .additional-content, .show-content, .email-input, .register-button, .design-image, .footer-content,
+    .prompt-generator, .dweep-daily, .all-contributors, .dweep, .contribute, .dweep-io, .made-with, .icon-image,
+    .icon-image2, .email {
+        padding: 0 1rem;
+    }
 	
-}
+    .email-input, .register-button {
+        width: auto;
+        margin: 0.625rem 0;
+    }
 
-.all-contributors{
-	width: 216px;
-	height: 36px;
-	position: absolute;
-	margin-top: 134px;
-	margin-left: 191px;
-	font-family: 'Inter', sans-serif;
-	font-size: 20px;
-	font-weight: 400;
-	line-height: 32px;
-	text-align: left;
-	color: #FFFFFF;
-}
-
-.dweep{
-	width: 216px;
-	height: 36px;
-	position: absolute;
-	margin-top: 170px;
-	margin-left: 191px;
-	font-family: 'Inter', sans-serif;
-	font-size: 20px;
-	font-weight: 400;
-	line-height: 32px;
-	text-align: left;
-	color: #FFFFFF;
-}
-
-.contribute{
-	width: 216px;
-	height: 36px;
-	position: absolute;
-	margin-top: 206px;
-	margin-left: 191px;
-	font-family: 'Inter', sans-serif;
-	font-size: 20px;
-	font-weight: 400;
-	line-height: 32px;
-	text-align: left;
-	color: #FFFFFF;
-}
-
-.dweep-io{
-	width: 216px;
-	height: 36px;
-	position: absolute;
-	margin-top: 62px;
-	margin-left: 1099px;
-	font-family: 'Inter', sans-serif;
-	font-size: 20px;
-	font-weight: 400;
-	line-height: 32px;
-	text-align: left;
-	color: #FFFFFF;
-}
-
-.made-with{
-	width: 216px;
-	height: 36px;
-	position: absolute;
-	margin-top: 98px;
-	margin-left: 1099px;
-	font-family: 'Inter', sans-serif;
-	font-size: 20px;
-	font-weight: 400;
-	line-height: 32px;
-	text-align: left;
-	color: #FFFFFF;
-}
-
-.icon-image{
-	width: 29.41px;
-	height: 27.42px;
-	position: absolute;
-	margin-top: 134px;
-	margin-left: 1099px;
-	box-sizing: border-box;
-}
-
-.icon-image2{
-	width: 29.41px;
-	height: 27.42px;
-	position: absolute;
-	margin-top: 134px;
-	margin-left: 1135px;
-	box-sizing: border-box;
-}
-
-.email{
-	width: 216px;
-	height: 36px;
-	margin-top: 206px;
-	margin-left: 1099px;
-	font-family: 'Inter', sans-serif;
-	font-size: 20px;
-	font-weight: 400;
-	line-height: 32px;
-	text-align: left;
-	color: #FFFFFF;
+    .design-image {
+        width: auto;
+        height: auto;
+        max-width: 100%;
+    }
 }
